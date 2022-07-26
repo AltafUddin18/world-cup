@@ -1,7 +1,105 @@
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* body */
+/* Common styles */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* The Header */
+header {
+    background-color: #161616;
+    border-radius: 38px;
+    margin: 5% 8% 8% 8%;
+    overflow: hidden;
+}
+
+.header-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-info {
+    padding: 110px 25px 110px 100px;
+    color: #ffffff;
+}
+
+.header-info h1 {
+    font-weight: 700;
+    font-size: 525%;
+    margin: 70px 0 20px 0;
+}
+
+.header-info p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.watch-live {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-img {
+    align-self: flex-end;
+
+    width: 50%;
+}
+
+.header-img img {
+    width: 700px;
+    height: 700px;
+    margin-bottom: -10px;
+}
+
+/* Three Options style*/
+
+.three-opt {
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.decor {
+    text-decoration: none;
+    color: black;
+    width: 252px;
+    padding: 30px;
+    margin: 15px 30px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.three-opt .blog {
+    color: #FFFFFF;
+    background-color: #DD0000;
+    margin-bottom: 30px;
+}
+
+.three-opt .match {
+    margin-top: 30px;
+}
+
+/* player card design */
+.player-card {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    width: 312px;
+    height: 362px;
 }

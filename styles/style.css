@@ -122,8 +122,6 @@ main {
 .player-card article {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
-    width: 385px;
-    height: 430px;
 }
 
 .card-img img {
@@ -169,23 +167,82 @@ footer {
     font-size: 40px;
 }
 
+.goal {
+    margin-bottom: 30px;
+}
+
 .horizontal-line {
     width: 90%;
     height: 3px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* More options in footer */
 .bottom-row {
     margin-top: 20px;
 }
 
 .more-info li {
     display: inline;
-
+    margin: 0;
 }
 
 .more-info li a {
-    margin: 50px;
+    margin-right: 60px;
+    font-weight: 500;
+    font-size: 16px;
     text-decoration: none;
+    color: #B9B9B9;
+}
+
+.more-info li .contact {
+    margin-left: 10px;
+}
+
+/* Upcoming Matches style */
+.match2 {
     color: #FFFFFF;
+    background-color: #DD0000;
+    margin-top: 30px;
+}
+
+.blog2 {
+    margin-bottom: 30px;
+}
+
+/* Match card style */
+
+.card-img2 {
+    width: 370px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 55px;
+}
+
+.match-card article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.text-sect h2 {
+    color: #161616;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.text-sect p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 55px;
 }
